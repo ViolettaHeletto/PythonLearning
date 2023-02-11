@@ -26,7 +26,7 @@ print(word + str(number + int(str_num)))
 print(word + str(number + float(str_num)))
 print(word + str(number + bool(str_num)))
 print(int(boolean))
-
+ 
 num1 = 3 #int(input("1 number: ")) #string
 num2 = 6 #int(input("2 number: "))
 num1 += 23
@@ -37,3 +37,16 @@ print("Result: ", num1 * num2)
 
 print(word * 5)
 word = 798
+
+x = 5 #int(input('Введите Х: '))
+chislo = 5
+y = x * chislo
+y += 2
+print("resultat: ", y)
+
+name = input('введите имя: ')
+rost = float(input('введите рост в метрах: '))
+rost_programmista = 1.5
+print(name * 3)
+print('рост пользователя + рост программиста = ', rost + rost_programmista)
+
